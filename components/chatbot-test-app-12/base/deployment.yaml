@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance:  chatbot-test-app-12
     spec:
       containers:
-      - image:  quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest
+      - image:  quay.io/mvaldron-rhdh/chatbot-test-app-12:latest
         name: app-inference
         envFrom:
         - configMapRef:
