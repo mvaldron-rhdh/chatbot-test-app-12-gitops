@@ -12,5 +12,5 @@ spec:
   template: 
     spec:
       containers:
-      - image: quay.io/mvaldron-rhdh/chatbot-test-app-12
+      - image: quay.io/mvaldron-rhdh/chatbot-test-app-12:latest
         name: app-inference 
